@@ -70,17 +70,17 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="write"
-        android:id="@+id/button"
+        android:text="Write it Out!"
+        android:id="@+id/button2"
         android:layout_below="@+id/editText"
-        android:layout_alignStart="@+id/editText" />
+        android:layout_toStartOf="@+id/textView2" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="write"
-        android:id="@+id/button2"
+        android:text="Speak it Out!"
+        android:id="@+id/button3"
         android:layout_below="@+id/editText"
-        android:layout_toStartOf="@+id/textView" />
+        android:layout_alignEnd="@+id/textView2" />
 
 </RelativeLayout>
